@@ -23,7 +23,6 @@ Nov 11th, 2021.
 5. I will work on real projects, facing real challenges. The time spent doing
    tutorials, online courses and other similar resources will NOT count towards
    this challenge. (If you've just started learning to code, read
-   [FAQ](FAQ.md))
 
 ## Ideas to make this challenge more effective
 
