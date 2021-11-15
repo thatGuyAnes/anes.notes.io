@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Notes',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -51,13 +51,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'rules',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Rules',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/thatGuyAnes/notes',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,8 +70,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Rules',
+                to: '/docs/rules',
+              },
+              {
+                label: 'Resources',
+                to: '/docs/resources',
               },
             ],
           },
@@ -106,7 +110,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
