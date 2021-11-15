@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: Day 01
+slug: /
 ---
 # Day 01: Nov 14 2021
 
@@ -9,7 +11,7 @@ Discovered [Docusaurus](https://docusaurus.io) :heart_eyes: man this is so neat.
 
 Made a basic doc website to host my logs.
 
-Struggeled a bit with setting up the sidebar (Always read documentation).
+Struggled a bit with setting up the sidebar (Always read documentation).
 
 ### Thoughts
 

@@ -4,11 +4,12 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '',
     Svg: require('../../static/img/undraw_add_notes.svg').default,
     description: (
       <>
-        This is my journal where I keep my #100DaysOfCode logs neatly organized.
+        This is where I'll be logging my #100DaysOfCode journey.<br />
+        The goal is to have something with a clean look and feel while being easy to maintain.
       </>
     ),
   },
@@ -32,7 +33,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className={styles.featureRow}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

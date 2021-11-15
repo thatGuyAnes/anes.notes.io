@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '#100DaysOfCode Journal',
-  tagline: '#100DaysOfCode Journal',
+  tagline: 'Daily logs of the 100DaysOfCode challenge in a simple format',
   url: 'https://thatGuyAnes.github.io',
   baseUrl: '/notes/',
   onBrokenLinks: 'throw',
@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'thatGuyAnes', // Usually your GitHub org/user name.
   projectName: 'notes', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
@@ -45,17 +46,28 @@ const config = {
       navbar: {
         title: 'Notes',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {
+            to: 'docs/',
+            activeBasePath: 'docs',
+            label: 'Docs',
+            position: 'left',
+          },
           {
             type: 'doc',
             docId: 'rules',
             position: 'left',
             label: 'Rules',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'resources',
+            position: 'left',
+            label: 'Resources',
+          },
           {
             href: 'https://github.com/thatGuyAnes/notes',
             label: 'GitHub',
@@ -80,19 +92,15 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'My Twitter',
+                href: 'https://twitter.com/thatguyanes',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'My GitHub',
+                href: 'https://github.com/thatGuyAnes',
               },
             ],
           },
@@ -100,11 +108,11 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '#100DaysOfCode',
+                to: 'https://www.100daysofcode.com/',
               },
               {
-                label: 'GitHub',
+                label: 'Docusaurus',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
