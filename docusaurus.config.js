@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '#100DaysOfCode Journal',
   tagline: '#100DaysOfCode Journal',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://thatGuyAnes.github.io',
+  baseUrl: '/notes/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thatGuyAnes', // Usually your GitHub org/user name.
-  projectName: '100DaysOfCode-journal', // Usually your repo name.
+  projectName: 'notes', // Usually your repo name.
 
   presets: [
     [
