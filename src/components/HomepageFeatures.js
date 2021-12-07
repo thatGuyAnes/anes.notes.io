@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_add_notes.svg').default,
     description: (
       <>
-        This is where I'll be logging my #100DaysOfCode journey.<br />
+        A place to host my notes.<br />
         The goal is to have something with a clean look and feel while being easy to maintain.
       </>
     ),

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '#100DaysOfCode Journal',
-  tagline: 'Daily logs of the 100DaysOfCode challenge in a simple format',
+  title: 'Open Notes',
+  tagline: 'Notes and snippets as docs',
   url: 'https://thatGuyAnes.github.io',
   baseUrl: '/notes/',
   onBrokenLinks: 'throw',
@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/thatGuyAnes/notes',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/thatGuyAnes/notes',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

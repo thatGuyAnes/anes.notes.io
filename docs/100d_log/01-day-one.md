@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 title: Day 01
-slug: /
 ---
 # Day 01: Nov 14 2021
 
