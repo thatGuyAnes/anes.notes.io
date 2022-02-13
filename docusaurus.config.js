@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thatGuyAnes', // Usually your GitHub org/user name.
-  projectName: 'docunotes', // Usually your repo name.
+  projectName: 'notes', // Usually your repo name.
   trailingSlash: false,
 
   presets: [
