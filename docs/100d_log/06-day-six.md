@@ -1,7 +1,8 @@
 ---
 sidebar_position: 1
-title: Day 05
+title: Day 06
 ---
+
 # Day 06: Nov 23 2021
 
 ### Day's Progress
@@ -11,7 +12,4 @@ Revisited some old code webpack and retouched my blog's layout.
 
 ### Thoughts
 
-
-
 ### Resources used Today
-
