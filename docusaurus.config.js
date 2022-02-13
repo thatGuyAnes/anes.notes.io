@@ -9,7 +9,7 @@ const config = {
   title: 'Open Notes',
   tagline: 'Notes and snippets as docs',
   url: 'https://thatGuyAnes.github.io',
-  baseUrl: '/notes/',
+  baseUrl: '/notes',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
