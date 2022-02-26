@@ -9,13 +9,13 @@ const config = {
   title: 'Open Notes',
   tagline: 'Notes and snippets as docs',
   url: 'https://thatGuyAnes.github.io',
-  baseUrl: '/notes',
+  baseUrl: '/notes/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thatGuyAnes', // Usually your GitHub org/user name.
   projectName: 'notes', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: false, // must not be undefined
 
   presets: [
     [
