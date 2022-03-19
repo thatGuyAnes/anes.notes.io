@@ -50,24 +50,24 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            to: 'docs/',
-            activeBasePath: 'docs',
-            label: 'Docs',
-            position: 'left',
-          },
-          {
-            type: 'doc',
-            docId: 'rules',
-            position: 'left',
-            label: 'Rules',
-          },
-          {
-            type: 'doc',
-            docId: 'resources',
-            position: 'left',
-            label: 'Resources',
-          },
+          // {
+          //   to: 'docs/',
+          //   activeBasePath: 'docs',
+          //   label: 'Docs',
+          //   position: 'left',
+          // },
+          // {
+          //   type: 'doc',
+          //   docId: 'rules',
+          //   position: 'left',
+          //   label: 'Rules',
+          // },
+          // {
+          //   type: 'doc',
+          //   docId: 'resources',
+          //   position: 'left',
+          //   label: 'Resources',
+          // },
           {
             href: 'https://github.com/thatGuyAnes/notes',
             label: 'GitHub',
@@ -78,47 +78,52 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Rules',
-                to: '/docs/rules',
-              },
-              {
-                label: 'Resources',
-                to: '/docs/resources',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Rules',
+          //       to: '/docs/rules',
+          //     },
+          //     {
+          //       label: 'Resources',
+          //       to: '/docs/resources',
+          //     },
+          //   ],
+          // },
           {
             title: 'Social',
             items: [
               {
-                label: 'My Twitter',
+                label: 'Twitter',
                 href: 'https://twitter.com/thatguyanes',
               },
               {
-                label: 'My GitHub',
+                label: 'GitHub',
                 href: 'https://github.com/thatGuyAnes',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
-                label: '#100DaysOfCode',
-                to: 'https://www.100daysofcode.com/',
-              },
-              {
-                label: 'Docusaurus',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/anes-marzuki-001am/',
               },
             ],
           },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: '#100DaysOfCode',
+          //       to: 'https://www.100daysofcode.com/',
+          //     },
+          //     {
+          //       label: 'Docusaurus',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
+      copyright: `Copyright © <a href="https://www.anesmarzuki.com">www.anesmarzuki.com</a>`,
       },
       prism: {
         theme: lightCodeTheme,
