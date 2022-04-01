@@ -15,6 +15,12 @@ If the error is removed, you can see it again with:
 
 `:echo errmsg` or `:messagses`
 
+## Detect filetype
+
+```sh
+:set filetype?
+```
+
 ## Spell Checking
 
 ### Activating Spell Checking
@@ -66,3 +72,17 @@ alternatives by typing the number of the word from the list and hit enter.
 #### Mark word as misspelled
 
 `zw` --> Mark current word as misspelled.
+
+## Keymaps
+
+## Life changing ones
+
+- `%`: jump to matching parentheses/brackets.
+
+### Useful but not so practical ?? :man-shrugging:
+
+- `Ctrl-o`: in insert mode run a single normal mode command and return back to
+  insert mode (e.i: when typing at the bottom of the window and we want to use
+  `zz` and go back to typing).
+- `Shift-d`: in normal mode delete until end of line.
+- `Shift-c`: Same as `Shift-d` but gets into insert mode after delete.
