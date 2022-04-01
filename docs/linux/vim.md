@@ -79,7 +79,7 @@ alternatives by typing the number of the word from the list and hit enter.
 
 - `%`: jump to matching parentheses/brackets.
 
-### Useful but not so practical ?? :man-shrugging:
+## Useful but not so practical ?? :man-shrugging:
 
 - `Ctrl-o`: in insert mode run a single normal mode command and return back to
   insert mode (e.i: when typing at the bottom of the window and we want to use
