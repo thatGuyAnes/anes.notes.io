@@ -18,3 +18,13 @@ ctrl+shift+h moves window left.
 bind-key -n C-S-h swap-window -t -1
 bind-key -n C-S-l swap-window -t +1
 ```
+
+## New Session while inside a session
+
+`Prefix` + `:new-session -s <SESSION_NAME> -c <DIRECTORY>`
+
+From man page:
+
+      new-session [-AdDEP] [-c start-directory] [-F format] [-n window-name]
+      [-s session-name] [-t group-name] [-x width] [-y height] [shell-command]
+      (alias: new) Create a new session with name session-name.
