@@ -15,9 +15,15 @@ understanding of the functional programming patterns:
 
 - Pure functions
 - Immutability
-- Side-Effects
 - Shared State
-- First-Class Citizen (HOFs)
+- First-Class Citizens (HOFs)
+
+## Layman Terminology
+
+- **Predicate Function**: A function that takes one argument and returns true or false.
+- **Functor**: Anything that can be mapped.(arrays are functor because we can do array.map(f)).
+- **Side-Effects**: Anything the function performs that is not related to
+calculating its output, is a side-effect.
 
 ## Pure Functions
 
@@ -52,8 +58,7 @@ add(4); // count is 9
 add(4); // count is 13 !!!!!
 ```
 
-Anything the function performs that is not related to calculating its output,
-is a side-effect
+
 
 - mutating the input
 - HTTP calls (fetch/AJAX)
@@ -118,10 +123,11 @@ doubleNumbers(numbers)
 ### Point-Free
 
 In `doubleNumbers = map(double)` we didn't pass a number parameter to the map function.
-neither when we called it with `numbers`. These functions don't say the data
+Neither when we called it with `numbers`. These functions don't say the data
 they're operating on (`number`).
 
-Where functions don't show their arguments!!!
+That's referred to as "**Point-free**"; data not visible; Where functions don't
+show their arguments!!!
 
 This _style_ is called **Point-Free** enabled by HOFs and currying.
 
